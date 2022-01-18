@@ -17,7 +17,7 @@ const getData = () => [
     },
     {
         imgSrc: 'assets/images/emoji2.png',
-        name: 'yes'
+        name: 'writer'
     },
     {
         imgSrc: 'assets/images/emoji3.png',
@@ -25,7 +25,7 @@ const getData = () => [
     },
     {
         imgSrc: 'assets/images/emoji4.png',
-        name: 'fight'
+        name: 'thumb'
     },
     {
         imgSrc: 'assets/images/emoji5.png',
