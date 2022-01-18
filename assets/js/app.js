@@ -13,68 +13,69 @@ const getData = () => [
 
     {
         imgSrc: 'assets/images/emoji1.png',
-        name: 'happy'
+        name: 'fart'
     },
     {
         imgSrc: 'assets/images/emoji2.png',
-        name: 'annoyed'
+        name: 'yes'
     },
     {
         imgSrc: 'assets/images/emoji3.png',
-        name: 'confused'
+        name: 'ok'
     },
     {
         imgSrc: 'assets/images/emoji4.png',
-        name: 'disappointed'
+        name: 'fight'
     },
     {
         imgSrc: 'assets/images/emoji5.png',
-        name: 'kiss'
+        name: 'confused'
     },
     {
         imgSrc: 'assets/images/emoji6.png',
-        name: 'thumbs up'
+        name: 'thinking'
     },
     {
         imgSrc: 'assets/images/emoji7.png',
-        name: 'shocked'
+        name: 'smile'
     },
     {
         imgSrc: 'assets/images/emoji8.png',
-        name: 'thumbs down'
+        name: 'laugh'
     },
     {
         imgSrc: 'assets/images/emoji1.png',
-        name: 'happy'
+        name: 'fart'
     },
     {
         imgSrc: 'assets/images/emoji2.png',
-        name: 'annoyed'
+        name: 'yes'
     },
     {
         imgSrc: 'assets/images/emoji3.png',
-        name: 'confused'
+        name: 'ok'
     },
     {
         imgSrc: 'assets/images/emoji4.png',
-        name: 'disappointed'
+        name: 'fight'
     },
     {
         imgSrc: 'assets/images/emoji5.png',
-        name: 'kiss'
+        name: 'confused'
     },
     {
         imgSrc: 'assets/images/emoji6.png',
-        name: 'thumbs up'
+        name: 'thinking'
     },
     {
         imgSrc: 'assets/images/emoji7.png',
-        name: 'shocked'
+        name: 'smile'
     },
     {
         imgSrc: 'assets/images/emoji8.png',
-        name: 'thumbs down'
+        name: 'laugh'
     },
+
 ];
 
 // Randomize cards
