@@ -29,10 +29,13 @@ section {
     padding: 2rem;
     border-radius: 10px;
     margin-bottom: 4rem;
+    perspective: 800px;
 }
 
 .card {
     position: relative;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
 }
 
 .face,
@@ -45,4 +48,5 @@ section {
 
 .back {
     background-image: linear-gradient(rgb(15, 15, 175), black);
+    backface-visibility: hidden;
 }
