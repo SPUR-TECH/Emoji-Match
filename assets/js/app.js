@@ -6,7 +6,7 @@ const playerLives = 6;
 
 playerLivesCount.textContent = playerLives;
 
-// data generator
+// Generate an array
 
 const getData = () => [
 

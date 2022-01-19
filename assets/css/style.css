@@ -17,7 +17,7 @@ h1 {
     font-size: 5rem;
     color: rgb(255, 72, 0);
     padding: 20px;
-    margin-bottom: 2rem;
+
 }
 
 section {
@@ -28,6 +28,11 @@ section {
     gap: 2rem;
     padding: 2rem;
     border-radius: 10px;
+    margin-bottom: 4rem;
+}
+
+.card {
+    position: relative;
 }
 
 .face,
@@ -35,4 +40,9 @@ section {
     width: 100%;
     height: 100%;
     object-fit: contain;
+    position: absolute;
+}
+
+.back {
+    background-image: linear-gradient(rgb(15, 15, 175), black);
 }
