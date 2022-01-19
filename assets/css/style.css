@@ -15,9 +15,9 @@ body {
 
 h1 {
     font-size: 5rem;
-    color: rgb(255, 72, 0);
+    color: rgb(238, 10, 10);
     padding: 20px;
-    text-shadow: rgba(0, 0, 0, 0.9) 0px 5px 15px;
+    text-shadow: rgba(0, 0, 0, 0.9) 10px 15px 15px;
 }
 
 section {
@@ -35,8 +35,9 @@ section {
 .card {
     position: relative;
     transform-style: preserve-3d;
+    transition: 2s ease;
     transform: rotateY(180deg);
-    box-shadow: rgba(0, 0, 0, 0.9) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.9) 10px 15px 15px;
 }
 
 .face,
@@ -50,4 +51,8 @@ section {
 .back {
     background-image: linear-gradient(rgb(15, 15, 175), black);
     backface-visibility: hidden;
+}
+
+.toggle {
+    transform: rotateY(180deg);
 }
