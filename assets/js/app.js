@@ -125,5 +125,6 @@ const checkCards = (e) => {
     console.log(e);
     const clickedCard = e.target;
     console.log(clickedCard);
-}
+    clickedCard.classList.add('flipped');
+};
 cardGenerator();
