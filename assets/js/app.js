@@ -10,7 +10,6 @@ playerLivesCount.textContent = playerLives;
 
 const getData = () => [
 
-
     {
         imgSrc: 'assets/images/emoji1.png',
         name: 'fart'
@@ -75,7 +74,6 @@ const getData = () => [
         imgSrc: 'assets/images/emoji8.png',
         name: 'laugh'
     },
-
 ];
 
 // Randomize cards
@@ -124,7 +122,20 @@ const cardGenerator = () => {
 const checkCards = (e) => {
     console.log(e);
     const clickedCard = e.target;
-    console.log(clickedCard);
     clickedCard.classList.add('flipped');
+    const flippedCards = document.querySelectorAll('flipped');
+    console.log(flippedCards);
+
+    // logic 
+
+    // Turn 2 cards then do a check
+
+    if (flippedCards.length === 2) {
+        if (flippedCards[0].getAttribute('name') === flippedCards[1].getAttribute('name')) {
+            console.log('match');
+        } else {
+            console.log('wrong');
+        }
+    }
 };
 cardGenerator();
