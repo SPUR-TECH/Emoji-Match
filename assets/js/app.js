@@ -104,6 +104,7 @@ const cardGenerator = () => {
         //Attach image to cards
 
         face.src = item.imgSrc;
+        card.setAttribute('name', item.name);
 
         //Attach cards to section
 
