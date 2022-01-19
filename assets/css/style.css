@@ -13,6 +13,13 @@ body {
     align-items: center;
 }
 
+h2 {
+    font-size: 3rem;
+    color: rgb(255, 255, 0);
+    padding-top: 4rem;
+    text-shadow: rgba(0, 0, 0, 0.9) 10px 15px 15px;
+}
+
 h1 {
     font-size: 5rem;
     color: rgb(238, 10, 10);
@@ -30,15 +37,15 @@ section {
     border-radius: 10px;
     margin-bottom: 4rem;
     perspective: 800px;
-    
+
 }
 
 .card {
     position: relative;
     transform-style: preserve-3d;
     transition: 1000ms ease;
-    box-shadow: rgba(0, 0, 0, 0.9) 10px 15px 15px; 
-    cursor: pointer;  
+    box-shadow: rgba(0, 0, 0, 0.9) 10px 15px 15px;
+    cursor: pointer;
 }
 
 .face,
@@ -48,7 +55,7 @@ section {
     object-fit: contain;
     position: absolute;
     pointer-events: none;
-    
+
 }
 
 .back {
