@@ -48,7 +48,7 @@ const getData = () => [
     },
     {
         imgSrc: 'assets/images/emoji2.png',
-        name: 'yes'
+        name: 'happy'
     },
     {
         imgSrc: 'assets/images/emoji3.png',
@@ -56,7 +56,7 @@ const getData = () => [
     },
     {
         imgSrc: 'assets/images/emoji4.png',
-        name: 'fight'
+        name: 'thumb'
     },
     {
         imgSrc: 'assets/images/emoji5.png',
@@ -136,7 +136,7 @@ const checkCards = (e) => {
             // stop flip if correct
             flippedCards.forEach((card) => {
                 card.classList.remove('flipped');
-                cardStyle.pointerEvents = 'none';
+                card.style.pointerEvents = 'none';
             });
         } else {
             // Turn back if wrong
@@ -151,4 +151,6 @@ const checkCards = (e) => {
         }
     }
 };
+
+
 cardGenerator();
