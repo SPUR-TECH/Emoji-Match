@@ -2,7 +2,7 @@
 
 const section = document.querySelector('section');
 const playerLivesCount = document.querySelector('span');
-let playerLives = 6;
+let playerLives = 8;
 
 playerLivesCount.textContent = playerLives;
 
