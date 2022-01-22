@@ -12,67 +12,83 @@ const getData = () => [
 
     {
         imgSrc: 'assets/images/emoji1.png',
-        name: 'fart-emoji'
+        name: 'fart-emoji',
+        alt: 'fart-emoji'
     },
     {
         imgSrc: 'assets/images/emoji2.png',
-        name: 'happy-emoji'
+        name: 'happy-emoji',
+        alt: 'happy-emoji'
     },
     {
         imgSrc: 'assets/images/emoji3.png',
-        name: 'ok-emoji'
+        name: 'ok-emoji',
+        alt: 'ok-emoji'
     },
     {
         imgSrc: 'assets/images/emoji4.png',
-        name: 'thumb-emoji'
+        name: 'thumb-emoji',
+        alt: 'thumb-emoji'
     },
     {
         imgSrc: 'assets/images/emoji5.png',
-        name: 'confused-emoji'
+        name: 'confused-emoji',
+        alt: 'confused-emoji'
     },
     {
         imgSrc: 'assets/images/emoji6.png',
-        name: 'thinking-emoji'
+        name: 'thinking-emoji',
+        alt: 'thinking-emoji'
     },
     {
         imgSrc: 'assets/images/emoji7.png',
-        name: 'smile-emoji'
+        name: 'smile-emoji',
+        alt: 'smile-emoji'
     },
     {
         imgSrc: 'assets/images/emoji8.png',
-        name: 'laugh-emoji'
+        name: 'laugh-emoji',
+        alt: 'laugh-emoji'
     },
     {
         imgSrc: 'assets/images/emoji1.png',
-        name: 'fart-emoji'
+        name: 'fart-emoji',
+        alt: 'fart-emoji'
     },
     {
         imgSrc: 'assets/images/emoji2.png',
-        name: 'happy-emoji'
+        name: 'happy-emoji',
+        alt: 'happy-emoji'
     },
     {
         imgSrc: 'assets/images/emoji3.png',
-        name: 'ok-emoji'
+        name: 'ok-emoji',
+        alt: 'ok-emoji'
     },
     {
         imgSrc: 'assets/images/emoji4.png',
-        name: 'thumb-emoji'
+        name: 'thumb-emoji',
+        alt: 'thumb-emoji'
     },
     {
         imgSrc: 'assets/images/emoji5.png',
-        name: 'confused-emoji'
+        name: 'confused-emoji',
+        alt: 'confused-emoji'
     },
     {
         imgSrc: 'assets/images/emoji6.png',
-        name: 'thinking-emoji'
+        name: 'thinking-emoji',
+        alt: 'thinking-emoji'
     },
     {
         imgSrc: 'assets/images/emoji7.png',
-        name: 'smile-emoji'
+        name: 'smile-emoji',
+        alt: 'smile-emoji'
     },
     {
         imgSrc: 'assets/images/emoji8.png',
-        name: 'laugh-emoji'
+        name: 'laugh-emoji',
+        alt: 'laugh-emoji'
     },
 ];
 
@@ -104,7 +120,7 @@ const cardGenerator = () => {
 
         face.src = item.imgSrc;
         card.setAttribute('name', item.name);
-        card.setAttribute('alt', item.name);
+        face.setAttribute('alt', item.name);
 
         //Attach cards to section
 
