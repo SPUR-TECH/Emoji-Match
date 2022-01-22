@@ -125,13 +125,13 @@ const cardGenerator = () => {
         //Attach cards to section
 
         section.appendChild(card);
-        card.appendChild(face)
+        card.appendChild(face);
         card.appendChild(back);
 
         card.addEventListener('click', (e) => {
             card.classList.toggle('toggleCard');
             checkCards(e);
-        })
+        });
     });
 };
 
@@ -193,15 +193,15 @@ const restart = (text) => {
         setTimeout(() => {
             cards[index].style.pointerEvents = 'all';
             // Randomize
-            faces[index].src = item.imgSrc
+            faces[index].src = item.imgSrc;
             cards[index].setAttribute('name', item.name);
             section.style.pointerEvents = ('all');
         }, 1000);
     });
 
-    playerLives = 6;
+    playerLives = 8;
     playerLivesCount.textContent = playerLives;
     setTimeout(() => window.alert(text), 100);
-}
+};
 
 cardGenerator();
