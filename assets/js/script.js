@@ -2,7 +2,7 @@
 
 const section = document.querySelector('section');
 const playerLivesCount = document.querySelector('span');
-const playerLives = 6;
+let playerLives = 6;
 
 playerLivesCount.textContent = playerLives;
 
@@ -133,12 +133,21 @@ const checkCards = (e) => {
     if (flippedCards.length === 2) {
         if (flippedCards[0].getAttribute('name') === flippedCards[1].getAttribute('name')) {
             console.log('match');
+            // stop flip if correct
+            flippedCards.forEach((card) => {
+                card.classList.remove('flipped');
+                cardStyle.pointerEvents = 'none';
+            });
         } else {
+            // Turn back if wrong
             console.log('wrong');
             flippedCards.forEach((card) => {
                 card.classList.remove('flipped');
                 setTimeout(() => card.classList.remove('toggleCard'), 1000);
-            })
+            });
+
+            playerLives--;
+            playerLivesCount.textContent = playerLives;
         }
     }
 };
