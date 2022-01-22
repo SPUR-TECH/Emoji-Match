@@ -11,6 +11,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50rem;
 }
 
 h2 {
@@ -85,10 +86,6 @@ section {
         margin-bottom: 18rem;
         padding: 1rem;
         gap: 1rem;
-    }
-
-    body {
-        height: 100vh;
     }
 
     h2 {

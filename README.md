@@ -17,3 +17,10 @@ To make a simple memory game where you need to match two identical cards and kee
 
 - As a first time user I would like to play a game without needing to read instructions.
 
+- As a returning user I want to reveal all the cards with more remaining lives than the last time eventually trying to complete the perfect 6 remaining.
+
+## Wireframe:
+---
+This is the wireframe, The raw structure of the game.
+
+![](assets/images/wireframe-emoji-match.png)
