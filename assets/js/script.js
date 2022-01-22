@@ -100,6 +100,7 @@ const cardGenerator = () => {
         back.classList = 'back';
 
         //Attach image to cards
+        // Set Attributes
 
         face.src = item.imgSrc;
         card.setAttribute('name', item.name);
