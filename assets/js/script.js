@@ -12,67 +12,67 @@ const getData = () => [
 
     {
         imgSrc: 'assets/images/emoji1.png',
-        name: 'fart'
+        name: 'fart-emoji'
     },
     {
         imgSrc: 'assets/images/emoji2.png',
-        name: 'happy'
+        name: 'happy-emoji'
     },
     {
         imgSrc: 'assets/images/emoji3.png',
-        name: 'ok'
+        name: 'ok-emoji'
     },
     {
         imgSrc: 'assets/images/emoji4.png',
-        name: 'thumb'
+        name: 'thumb-emoji'
     },
     {
         imgSrc: 'assets/images/emoji5.png',
-        name: 'confused'
+        name: 'confused-emoji'
     },
     {
         imgSrc: 'assets/images/emoji6.png',
-        name: 'thinking'
+        name: 'thinking-emoji'
     },
     {
         imgSrc: 'assets/images/emoji7.png',
-        name: 'smile'
+        name: 'smile-emoji'
     },
     {
         imgSrc: 'assets/images/emoji8.png',
-        name: 'laugh'
+        name: 'laugh-emoji'
     },
     {
         imgSrc: 'assets/images/emoji1.png',
-        name: 'fart'
+        name: 'fart-emoji'
     },
     {
         imgSrc: 'assets/images/emoji2.png',
-        name: 'happy'
+        name: 'happy-emoji'
     },
     {
         imgSrc: 'assets/images/emoji3.png',
-        name: 'ok'
+        name: 'ok-emoji'
     },
     {
         imgSrc: 'assets/images/emoji4.png',
-        name: 'thumb'
+        name: 'thumb-emoji'
     },
     {
         imgSrc: 'assets/images/emoji5.png',
-        name: 'confused'
+        name: 'confused-emoji'
     },
     {
         imgSrc: 'assets/images/emoji6.png',
-        name: 'thinking'
+        name: 'thinking-emoji'
     },
     {
         imgSrc: 'assets/images/emoji7.png',
-        name: 'smile'
+        name: 'smile-emoji'
     },
     {
         imgSrc: 'assets/images/emoji8.png',
-        name: 'laugh'
+        name: 'laugh-emoji'
     },
 ];
 
@@ -103,6 +103,7 @@ const cardGenerator = () => {
 
         face.src = item.imgSrc;
         card.setAttribute('name', item.name);
+        card.setAttribute('alt', item.name);
 
         //Attach cards to section
 
