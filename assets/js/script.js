@@ -163,10 +163,13 @@ const restart = () => {
     let cards = document.querySelectorAll('.card');
     cardData.forEach((item, index) => {
         cards[index].classList.remove('toggleCard');
-        cards[index].style.pointerEvents = 'all';
-        // Randomize
-        faces[index].src = item.imgSrc
-        cards[index].setAttribute('name', item.name);
+
+        setTimeout(() => {
+            cards[index].style.pointerEvents = 'all';
+            // Randomize
+            faces[index].src = item.imgSrc
+            cards[index].setAttribute('name', item.name);
+        }, 1000);
     });
 
     playerLives = 6;
