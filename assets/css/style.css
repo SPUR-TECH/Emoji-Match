@@ -61,8 +61,8 @@ section {
 
 .back {
     background-image: linear-gradient(rgb(15, 15, 175), black);
-    backface-visibility: visible;
-    backface-visibility: hidden;
+    -webkit-backface-visibility: visible;
+    -webkit-backface-visibility: hidden;
 }
 
 .toggleCard {
