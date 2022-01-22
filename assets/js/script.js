@@ -2,7 +2,7 @@
 
 const section = document.querySelector('section');
 const playerLivesCount = document.querySelector('span');
-let playerLives = 8;
+let playerLives = 6;
 
 playerLivesCount.textContent = playerLives;
 
@@ -199,7 +199,7 @@ const restart = (text) => {
         }, 1000);
     });
 
-    playerLives = 8;
+    playerLives = 6;
     playerLivesCount.textContent = playerLives;
     setTimeout(() => window.alert(text), 100);
 };
