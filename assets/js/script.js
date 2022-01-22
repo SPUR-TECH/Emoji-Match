@@ -123,7 +123,7 @@ const checkCards = (e) => {
     console.log(e);
     const clickedCard = e.target;
     clickedCard.classList.add('flipped');
-    const flippedCards = document.querySelectorAll('flipped');
+    const flippedCards = document.querySelectorAll('.flipped');
     console.log(flippedCards);
 
     // logic 
@@ -135,6 +135,10 @@ const checkCards = (e) => {
             console.log('match');
         } else {
             console.log('wrong');
+            flippedCards.forEach((card) => {
+                card.classList.remove('flipped');
+                setTimeout(() => card.classList.remove('toggleCard'), 1000);
+            })
         }
     }
 };
