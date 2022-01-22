@@ -148,9 +148,22 @@ const checkCards = (e) => {
 
             playerLives--;
             playerLivesCount.textContent = playerLives;
+            if (playerLives === 0) {
+                setTimeout(() => restart(), 2000);
+            }
         }
     }
 };
 
+//Restart
+
+const restart = () => {
+    let cardData = randomize();
+    let faces = document.querySelectorAll('.face');
+    let cards = document.querySelectorAll('.card');
+    cardData.forEach((item, index) => {
+        cards[index].classList.remove('toggleCard');
+    });
+}
 
 cardGenerator();
