@@ -123,6 +123,8 @@ All free emoji images were used from https://pixabay.com/images/search/emojis/
 
  A thank you to Jack my mentor for taking an emergency call to check my project and helping decide what to do.
 
+ A big thank you to https://www.youtube.com/watch?v=tjyDOHzKN0w&t=100s for loosely following some of the ideas used to make my game
+
  And a thank you to Google and Youtube for general researching.
  
 A thank you to Pixabay for the images.
