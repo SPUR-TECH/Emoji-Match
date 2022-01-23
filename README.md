@@ -6,7 +6,7 @@ https://spur-tech.github.io/Emoji-Match/
 
 ## Details and construction of Emoji Match memory game:
 
-This memory testing card flipping game was created purely for fun and to test my knowledge of Java script functions and for loops etc.
+This memory testing card flipping game was created purely for fun and to test my knowledge of Java script functions and for loops, creating arrays working around issues etc.
 
 ## project mission:
 ---
