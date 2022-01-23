@@ -14,6 +14,12 @@ body {
     padding-bottom: 50rem;
 }
 
+h3 {
+    position: absolute;
+    font-size: 0px;
+    top: 0%;
+}
+
 h2 {
     font-size: 3rem;
     color: rgb(255, 208, 0);
@@ -32,7 +38,7 @@ section {
     display: grid;
     grid-template-columns: repeat(4, 7rem);
     grid-template-rows: repeat(4, 7rem);
-    background-image: linear-gradient(rgb(194, 82, 38), rgb(173, 6, 6));
+    background-image: linear-gradient(rgb(194, 82, 38), rgb(255, 0, 0));
     gap: 2rem;
     padding: 2rem;
     border-radius: 10px;
@@ -56,8 +62,9 @@ section {
     object-fit: contain;
     position: absolute;
     pointer-events: none;
-
 }
+
+/* -webkit and -moz taken from stack overflow to allow compatibility across search engines */
 
 .back {
     background-image: linear-gradient(rgb(15, 15, 175), black);

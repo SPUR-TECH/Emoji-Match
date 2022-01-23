@@ -24,3 +24,43 @@ To make a simple memory game where you need to match two identical cards and kee
 This is the wireframe, The raw structure of the game.
 
 ![](assets/images/wireframe-emoji-match.png)
+
+-----
+
+##  Screen shot of the site and it's responsive abilities:
+
+![](assets/images/responsive-screenshot.png)
+
+I used http://ami.responsivedesign.is/ to check the responsive capabilities on all devices.
+As you can see it's fully responsive right across all devices and adapts to any screen size.
+
+# Organization:
+
+All files are appropriately named with no capitalization or spaces and all in corresponding folders.
+
+- Assets
+- css
+- style.css
+- images
+- js
+- script.js
+- index.html
+- README.md
+
+## features:
+---
+
+A favicon image was used in tab.
+
+![](assets/images/favicon-emoji.png)
+
+Background colours are blue gradient to black and card backs matching.
+Game section background is orange to red gradient and lives matching the red.
+The title matching the emoji yellow.
+
+![](assets/images/game-backs.png)
+
+All free emoji images were used from https://pixabay.com/images/search/emojis/
+
+![](assets/images/game-faces.png)
+
