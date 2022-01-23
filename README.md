@@ -9,6 +9,7 @@ https://spur-tech.github.io/Emoji-Match/
 This memory testing card flipping game was created purely for fun and to test my knowledge of Java script functions and for loops, creating arrays working around issues etc.
 
 ## project mission:
+
 ---
 
 To make a simple memory game where you need to match two identical cards and keep going until you reveal all the cards but you only have 6 lives. I'ts more difficult than you may first think.
