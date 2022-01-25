@@ -93,7 +93,7 @@ section {
     section {
         grid-template-columns: repeat(4, 3rem);
         grid-template-rows: repeat(4, 3rem);
-        padding-bottom: 0rem;
+        padding-bottom: 20rem;
         padding: 1rem;
         gap: 1rem;
     }
