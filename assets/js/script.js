@@ -168,7 +168,7 @@ var checkCards = function checkCards(e) {
     if (toggleCard.length === 16) {
         setTimeout(function () {
             return restart(':) Wahoo you win!');
-        }, 1000);
+        }, 3000);
     }
 };
 
