@@ -8,7 +8,7 @@ playerLivesCount.textContent = playerLives;
 
 // Generate an array
 
-var getData = function getData() {
+function getData() {
     return [{
         imgSrc: 'assets/images/emoji1.png',
         name: 'fart-emoji',
@@ -78,7 +78,7 @@ var getData = function getData() {
 
 // Randomize cards
 
-var randomize = function randomize() {
+function randomize() {
     var cardData = getData();
     cardData.sort(function () {
         return Math.random() - 0.5;
@@ -88,7 +88,7 @@ var randomize = function randomize() {
 
 //Card generator function
 
-var cardGenerator = function cardGenerator() {
+function cardGenerator() {
     var cardData = randomize();
 
     //Generate HTML
@@ -123,7 +123,7 @@ var cardGenerator = function cardGenerator() {
 
 // Check cards
 
-var checkCards = function checkCards(e) {
+function checkCards(e) {
     console.log(e);
     var clickedCard = e.target;
     clickedCard.classList.add('flipped');
@@ -174,7 +174,7 @@ var checkCards = function checkCards(e) {
 
 //Restart
 
-var restart = function restart(text) {
+function restart(text) {
     var cardData = randomize();
     var faces = document.querySelectorAll('.face');
     var cards = document.querySelectorAll('.card');
