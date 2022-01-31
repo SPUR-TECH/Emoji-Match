@@ -124,12 +124,10 @@ function cardGenerator() {
 // Check cards
 
 function checkCards(e) {
-    console.log(e);
     var clickedCard = e.target;
     clickedCard.classList.add('flipped');
     var flippedCards = document.querySelectorAll('.flipped');
     var toggleCard = document.querySelectorAll('.toggleCard');
-    console.log(flippedCards);
 
     // logic 
 
@@ -137,7 +135,6 @@ function checkCards(e) {
 
     if (flippedCards.length === 2) {
         if (flippedCards[0].getAttribute('name') === flippedCards[1].getAttribute('name')) {
-            console.log('match');
             // stop flip if correct
             flippedCards.forEach(function (card) {
                 card.classList.remove('flipped');
@@ -145,7 +142,6 @@ function checkCards(e) {
             });
         } else {
             // Turn back if wrong
-            console.log('wrong');
             flippedCards.forEach(function (card) {
                 card.classList.remove('flipped');
                 setTimeout(function () {
